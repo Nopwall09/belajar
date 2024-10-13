@@ -35,9 +35,11 @@ def pin(pin,nama,umur,ttl,ktp,desa,kec,kab,email1):
             else:
                 print("Input Tidak Dikenali")
                 input_biodata()
+                continue
         else:
             print("\n======>Pin Anda Salah")
-            pin(pin,nama,umur,ttl,ktp,desa,kec,kab,email1)
+
+            
 
 def login(pin,nama,umur,ttl,ktp,desa,kec,kab,email1):
     print("\n================Silahkan Login================")
